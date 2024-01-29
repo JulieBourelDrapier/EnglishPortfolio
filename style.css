@@ -333,6 +333,7 @@ p {
   font-family: var(--light-police);
   padding: 7px;
 }
+
 .retrospective a:hover, 
 .retrospective a:focus {
   color: var(--fourth-color);
@@ -662,9 +663,15 @@ p {
     font-size: 20px;
   }
 }
-.retrospective p, .retrospective a {
+.retrospective p {
   @media screen and (min-width: 800px) {
-    padding: 12px;
+    padding: 5px;
+    font-size: 20px;
+  }
+}
+.retrospective a {
+  @media screen and (min-width: 800px) {
+    padding: 0px;
     font-size: 20px;
   }
 }
