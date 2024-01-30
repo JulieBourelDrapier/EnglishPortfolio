@@ -417,7 +417,8 @@ p {
   font-family: var(--hand-police);
   color: var(--white);
   text-align: center;
-  font-size: 19px;
+  font-size: 18px;
+  letter-spacing: 2px;
   line-height: 0.8;
   padding: 15px;
   font-weight: bolder;
